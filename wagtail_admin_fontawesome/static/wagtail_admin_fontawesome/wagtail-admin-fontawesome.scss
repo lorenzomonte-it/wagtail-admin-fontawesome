@@ -1,0 +1,25 @@
+$fa-css-prefix: icon-fa;
+
+@import "scss/fontawesome.scss";
+@import "scss/solid.scss";
+
+.icon {
+    &[class^="#{$fa-css-prefix}-"],
+    &[class*=" #{$fa-css-prefix}-"] {
+        &:before {
+            font-family: 'Font Awesome 5 Free';
+            font-weight: 400;
+        }
+    }
+}
+
+header h1.icon:before {
+    margin-right: 0.9em;
+    vertical-align: bottom;
+    font-size: 1.2em !important;
+}
+.nav-main .menu-item .icon:before {
+    vertical-align: initial;
+    font-size: 1em !important;
+    display: inline-block;
+}
