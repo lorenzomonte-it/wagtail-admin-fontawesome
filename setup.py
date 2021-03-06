@@ -3,7 +3,7 @@
 from os import path
 from setuptools import find_packages, setup
 
-from wagtail_journal import __version__
+from wagtail_admin_fontawesome import __version__
 
 this_directory = path.abspath(path.dirname(__file__))
 with open(path.join(this_directory, "README.md"), encoding="utf-8") as f:
