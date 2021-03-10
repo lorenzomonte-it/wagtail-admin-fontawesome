@@ -2,12 +2,13 @@ $fa-css-prefix: icon-fa;
 
 @import "scss/fontawesome.scss";
 @import "scss/solid.scss";
+@import "scss/brands.scss";
 
 .icon {
-    &[class^="#{$fa-css-prefix}-"],
-    &[class*=" #{$fa-css-prefix}-"] {
+    &[class^="#{$fa-css-prefix}"],
+    &[class*=" #{$fa-css-prefix}"] {
         &:before {
-            font-family: 'Font Awesome 5 Free';
+            font-family: 'Font Awesome 5 Free', 'Font Awesome 5 Brands';
             font-weight: 400;
         }
     }
