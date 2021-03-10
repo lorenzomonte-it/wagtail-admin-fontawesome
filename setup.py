@@ -10,7 +10,7 @@ with open(path.join(this_directory, "README.md"), encoding="utf-8") as f:
     long_description = f.read()
 
 setup(
-    name="wagtail_admin_fontawesome",
+    name="wagtailadminfontawesome",
     version=__version__,
     description="Add Fontawesome5 to Wagtail project's admin",
     long_description=long_description,
