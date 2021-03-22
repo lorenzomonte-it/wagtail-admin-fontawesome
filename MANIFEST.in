@@ -1,6 +1,6 @@
 include LICENSE *.rst *.txt *.md
 graft wagtailadminfontawesome
 recursive-exclude wagtailadminfontawesome/static/wagtailadminfontawesome/scss *
-recursive-exclude wagtailadminfontawesome/static/wagtailadminfontawesome/webfonts *
+recursive-exclude wagtailadminfontawesome/static/wagtailadminfontawesome/wagtail-admin-fontawesome.scss *
 global-exclude __pycache__
 global-exclude *.py[co]
